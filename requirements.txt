@@ -1,0 +1,20 @@
+# FCPXML Generator Dependencies
+# Core dependencies - no external packages required!
+# This tool uses only Python standard library components:
+# - tkinter (GUI)
+# - json (JSON parsing)
+# - re (regular expressions)
+# - subprocess (ffprobe integration)
+# - uuid (unique identifiers)
+# - os (file operations)
+
+# Optional: For building executable
+# pyinstaller>=5.0.0
+
+# Optional: For enhanced video analysis (if ffprobe not available)
+# opencv-python>=4.5.0
+
+# Development dependencies (for contributors)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
